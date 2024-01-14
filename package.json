@@ -7,7 +7,9 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "husky-install": "husky install",
+    "lint-staged": "lint-staged --config lint-staged.js"
   },
   "dependencies": {
     "@prisma/client": "^5.8.0",
@@ -35,11 +37,14 @@
     "autoprefixer": "^10.4.14",
     "eslint": "^8.54.0",
     "eslint-config-next": "^14.0.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
     "postcss": "^8.4.31",
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
     "prisma": "^5.8.0",
     "tailwindcss": "^3.3.5",
+    "tsc-files": "^1.1.4",
     "typescript": "^5.1.6"
   },
   "ct3aMetadata": {
