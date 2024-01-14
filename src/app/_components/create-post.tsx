@@ -13,17 +13,17 @@ export function CreatePost() {
     onSuccess: () => {
       router.refresh();
       setName("");
-      console.log("hello");
+      console.log("hello"\);
     },
   });
 
   return (
     <form
-      onSubmit={(e) => {
-        e.preventDefault();
+    onSubmit={(e) => {
+                              e.preventDefault();
         createPost.mutate({ name });
       }}
-      className="flex flex-col gap-2"
+           className="flex flex-col gap-2"
     >
       <input
         type="text"
