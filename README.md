@@ -11,4 +11,4 @@
 * Jest
 * Redux
 * Kafka
-List goes on. Will at features later on
+* List goes on. Will add features later on
