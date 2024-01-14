@@ -13,6 +13,7 @@ export function CreatePost() {
     onSuccess: () => {
       router.refresh();
       setName("");
+      console.log("hello");
     },
   });
 
@@ -20,7 +21,7 @@ export function CreatePost() {
     <form
       onSubmit={(e) => {
         e.preventDefault();
-        createPost.mutate({ name 
+        createPost.mutate({ name });
       }}
       className="flex flex-col gap-2"
     >
